@@ -1,0 +1,21 @@
+$ npm init
+
+$ npm install express
+
+$ npm install express-generator -g
+
+$ express arounder view=pug(to create skeleton of the app)
+
+$ cd arounder	
+
+updated reference on dependencies (package.json) to pug 3.0.0 due to version installed by default is deprecated
+
+$npm install (that runs the app skeleton and installs dependencies
+
+npm install nodemon --save-dev 
+
+add scripts to package.json: 
+    "devstart": "nodemon ./bin/www",
+    "serverstart": "SET DEBUG=arounder:* & npm run devstart"
+
+Now, to start server just type: $npm run serverstart
